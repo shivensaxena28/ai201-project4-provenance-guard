@@ -1,0 +1,13 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated at runtime
+provenance.db
+server.log
